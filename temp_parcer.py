@@ -26,4 +26,4 @@ temp_element = html.find(class_=class_dict["temperature"])
 city_date_time_element = html.find(class_=class_dict["city_date_time"])
 
 # Printing the extracted information in a readable format (with title case for the day)
-print(f"Сьогоднi: {day_element.text.title()}, Температура: {temp_element.text}, {city_date_time_element.text}")
+print(f"Сьогоднi: {day_element.text.title()}, Температура: {temp_element.text}, Iнформацiя актуальна для м.{city_date_time_element.text}")

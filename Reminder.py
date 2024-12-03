@@ -2,7 +2,7 @@
 
 import time
 import os
-from colorama import Fore, Style
+from colorama import Fore, Style #pip install colorama
 
 def main():
     start_time = time.time()
